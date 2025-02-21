@@ -1,0 +1,81 @@
+header{
+    background-color:blue;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.delimita-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sinistra {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.destra {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.nav-item {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Left buttons with specific colors */
+.scuola {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.servizi {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.novita {
+    background-color: #16a085;
+    color: white;
+}
+
+.didattica {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Right buttons with specific colors */
+.aziende {
+    background-color: #2980b9;
+    color: white;
+}
+
+.registro {
+    background-color: #27ae60;
+    color: white;
+}
+
+.comunicati {
+    background-color: #8e44ad;
+    color: white;
+}
