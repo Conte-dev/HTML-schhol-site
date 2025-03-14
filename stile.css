@@ -11,8 +11,6 @@ body {
 
 .intestazione-sito {
     position:absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     background: #002B70;
 }
@@ -215,6 +213,7 @@ body {
   .numeri-scuola h2 {
     color: #002B70;
     margin-bottom: 25px;
+    
   }
   
   .contenitore-numeri {
